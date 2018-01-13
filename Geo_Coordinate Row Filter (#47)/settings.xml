@@ -11,7 +11,7 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <config key="polygon_selection_lonpoints">
-<entry key="array-size" type="xint" value="12"/>
+<entry key="array-size" type="xint" value="13"/>
 <entry key="0" type="xdouble" value="4.826345443725586"/>
 <entry key="1" type="xdouble" value="4.844799041748047"/>
 <entry key="2" type="xdouble" value="4.857072830200195"/>
@@ -24,9 +24,10 @@
 <entry key="9" type="xdouble" value="4.815874099731445"/>
 <entry key="10" type="xdouble" value="4.817161560058594"/>
 <entry key="11" type="xdouble" value="4.819736480712891"/>
+<entry key="12" type="xdouble" value="4.8332977294921875"/>
 </config>
 <config key="polygon_selection_latpoints">
-<entry key="array-size" type="xint" value="12"/>
+<entry key="array-size" type="xint" value="13"/>
 <entry key="0" type="xdouble" value="45.7739290084666"/>
 <entry key="1" type="xdouble" value="45.775126318684904"/>
 <entry key="2" type="xdouble" value="45.77356981038846"/>
@@ -39,6 +40,7 @@
 <entry key="9" type="xdouble" value="45.758481401971196"/>
 <entry key="10" type="xdouble" value="45.7632119374188"/>
 <entry key="11" type="xdouble" value="45.7672235961969"/>
+<entry key="12" type="xdouble" value="45.768181561591106"/>
 </config>
 <config key="exclude_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
@@ -49,12 +51,12 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="lat_column" type="xstring" value="First*(lat)"/>
+<entry key="lat_column" type="xstring" value="lat"/>
 <config key="lon_column_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="lon_column" type="xstring" value="First*(long)"/>
+<entry key="lon_column" type="xstring" value="long"/>
 </config>
 <config key="nodeAnnotation">
 <entry key="text" type="xstring" value="centre ville"/>
@@ -62,7 +64,7 @@
 <entry key="x-coordinate" type="xint" value="454"/>
 <entry key="y-coordinate" type="xint" value="-801"/>
 <entry key="width" type="xint" value="133"/>
-<entry key="height" type="xint" value="18"/>
+<entry key="height" type="xint" value="17"/>
 <entry key="alignment" type="xstring" value="CENTER"/>
 <entry key="borderSize" type="xint" value="0"/>
 <entry key="borderColor" type="xint" value="16777215"/>
@@ -71,11 +73,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="Latitude and/or Longitude columns do not exist."/>
-</config>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.ext.osm.node.rowfilter.GeoRowFilterNodeFactory"/>
 <entry key="node-name" type="xstring" value="Geo-Coordinate Row Filter"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Open Street Map Views Integration"/>
@@ -88,16 +86,19 @@
 <entry key="node-feature-version" type="xstring" value="3.5.0.v201711021644"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Geo-Coordinate Row Filter"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 5880, Cols: 11"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="8861441b-d58a-41ab-8e3a-d6a7a4bb1532"/>
 </config>
 </config>

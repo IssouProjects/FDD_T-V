@@ -6,43 +6,27 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="include_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<config key="include">
-<config key="InclList">
-<entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="Winner Cluster"/>
-</config>
-<config key="ExclList">
-<entry key="array-size" type="xint" value="8"/>
-<entry key="0" type="xstring" value="id"/>
-<entry key="1" type="xstring" value="First*(lat)"/>
-<entry key="2" type="xstring" value="First*(long)"/>
-<entry key="3" type="xstring" value="First*(date_taken_minute)"/>
-<entry key="4" type="xstring" value="First*(date_taken_hour)"/>
-<entry key="5" type="xstring" value="First*(date_taken_day)"/>
-<entry key="6" type="xstring" value="First*(date_taken_month)"/>
-<entry key="7" type="xstring" value="First*(date_taken_year)"/>
-</config>
-<entry key="keep_all_columns_selected" type="xboolean" value="false"/>
-</config>
+<entry key="expression" type="xstring" value="join(&quot;Cluster &quot;,$Winner Cluster$)"/>
+<entry key="replaced_column" type="xstring" value="Winner Cluster"/>
+<entry key="append_column" type="xboolean" value="true"/>
+<entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
+<entry key="insert_missing_as_null" type="xboolean" value="false"/>
+<entry key="return_type" type="xstring" value="java.lang.String"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="factory" type="xstring" value="org.knime.base.node.preproc.colconvert.numbertostring.NumberToStringNodeFactory"/>
-<entry key="node-name" type="xstring" value="Number To String"/>
-<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
-<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory"/>
+<entry key="node-name" type="xstring" value="String Manipulation"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="3.5.0.v201712011156"/>
+<entry key="node-bundle-version" type="xstring" value="3.5.0.v201711081409"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
 <entry key="node-feature-version" type="xstring" value="3.5.0.v201712041255"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Number To String"/>
+<entry key="name" type="xstring" value="String Manipulation"/>
 <entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
@@ -50,12 +34,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 1683, Cols: 12"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 12041, Cols: 12"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="15b49c44-d206-48e7-bce3-b90f9330b27b"/>
+<entry key="file_store_id" type="xstring" value="59406e69-cde6-4a8d-ab20-41d14c86208e"/>
 </config>
 </config>
