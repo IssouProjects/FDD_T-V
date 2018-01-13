@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="polygon_selection_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_geopolygon"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="polygon_selection_lonpoints">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xdouble" value="4.826345443725586"/>
+<entry key="1" type="xdouble" value="4.844799041748047"/>
+<entry key="2" type="xdouble" value="4.857072830200195"/>
+<entry key="3" type="xdouble" value="4.862394332885742"/>
+<entry key="4" type="xdouble" value="4.865484237670898"/>
+<entry key="5" type="xdouble" value="4.862308502197266"/>
+<entry key="6" type="xdouble" value="4.84471321105957"/>
+<entry key="7" type="xdouble" value="4.829092025756836"/>
+<entry key="8" type="xdouble" value="4.820594787597656"/>
+<entry key="9" type="xdouble" value="4.815874099731445"/>
+<entry key="10" type="xdouble" value="4.817161560058594"/>
+<entry key="11" type="xdouble" value="4.819736480712891"/>
+</config>
+<config key="polygon_selection_latpoints">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xdouble" value="45.7739290084666"/>
+<entry key="1" type="xdouble" value="45.775126318684904"/>
+<entry key="2" type="xdouble" value="45.77356981038846"/>
+<entry key="3" type="xdouble" value="45.76698410227777"/>
+<entry key="4" type="xdouble" value="45.75716396627005"/>
+<entry key="5" type="xdouble" value="45.748599876033396"/>
+<entry key="6" type="xdouble" value="45.74548533557156"/>
+<entry key="7" type="xdouble" value="45.74656346539698"/>
+<entry key="8" type="xdouble" value="45.74925869886274"/>
+<entry key="9" type="xdouble" value="45.758481401971196"/>
+<entry key="10" type="xdouble" value="45.7632119374188"/>
+<entry key="11" type="xdouble" value="45.7672235961969"/>
+</config>
+<config key="exclude_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="exclude" type="xboolean" value="false"/>
+<config key="lat_column_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="lat_column" type="xstring" value="First*(lat)"/>
+<config key="lon_column_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="lon_column" type="xstring" value="First*(long)"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="centre ville"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="454"/>
+<entry key="y-coordinate" type="xint" value="-801"/>
+<entry key="width" type="xint" value="133"/>
+<entry key="height" type="xint" value="18"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Latitude and/or Longitude columns do not exist."/>
+</config>
+<entry key="factory" type="xstring" value="org.knime.ext.osm.node.rowfilter.GeoRowFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Geo-Coordinate Row Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Open Street Map Views Integration"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.osm"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.5.0.v201711021644"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Open Street Map Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.osm.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.5.0.v201711021644"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Geo-Coordinate Row Filter"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>
