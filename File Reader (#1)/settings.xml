@@ -263,7 +263,11 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Can't access 'file:/D:/Travail/INSA/4eme%20annee/Fouille%20de%20données/data/flickr_data.csv'. (D:\Travail\INSA\4eme annee\Fouille de données\data\flickr_data.csv (Le volume ne contient pas de système de fichiers connu. Vérifiez si tous les pilotes de système%%00013%%00010de fichiers nécessaires sont chargés et si le volume n’est pas endommagé))"/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.base.node.io.filereader.FileReaderNodeFactory"/>
 <entry key="node-name" type="xstring" value="File Reader"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -276,19 +280,16 @@
 <entry key="node-feature-version" type="xstring" value="3.5.0.v201712041255"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="File Reader"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 83851, Cols: 16"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="458a8f15-86d3-488b-89c4-2c7301cfab0f"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>
