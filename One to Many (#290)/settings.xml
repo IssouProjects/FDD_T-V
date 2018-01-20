@@ -33,10 +33,6 @@
 </config>
 </config>
 </config>
-<config key="removeSources_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
 <entry key="removeSources" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
@@ -60,12 +56,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 1601, Cols: 253"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1399, Cols: 184"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="79f9468b-be43-4aa3-9939-4c4ac3cd6bd8"/>
+<entry key="file_store_id" type="xstring" value="3326f862-d5c3-423e-8e4f-d8df6e313f82"/>
 </config>
 </config>

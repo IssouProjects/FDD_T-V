@@ -7,7 +7,7 @@
 </config>
 <config key="model">
 <config key="weka-optionhandler-settings">
-<entry key="-E_(#0)" type="xstring" value="0.005"/>
+<entry key="-E_(#0)" type="xstring" value="0.01"/>
 <entry key="-M_(#1)" type="xstring" value="3"/>
 <entry key="-I_(#2)" type="xstring" value="weka.clusterers.forOPTICSAndDBScan.Databases.SequentialDatabase"/>
 <entry key="-D_(#3)" type="xstring" value="weka.clusterers.forOPTICSAndDBScan.DataObjects.EuclideanDataObject"/>
@@ -48,6 +48,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="da6cfdbc-2752-4c72-ad97-71425269c3b9"/>
+<entry key="file_store_id" type="xstring" value="d113da16-5a75-4f0d-8801-f00110cd0722"/>
 </config>
 </config>

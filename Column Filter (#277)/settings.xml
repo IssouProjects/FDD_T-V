@@ -11,20 +11,20 @@
 <config key="included_names">
 <entry key="array-size" type="xint" value="3"/>
 <entry key="0" type="xstring" value="TimeStamp"/>
-<entry key="1" type="xstring" value="First*(lat)"/>
-<entry key="2" type="xstring" value="First*(long)"/>
+<entry key="1" type="xstring" value="lat"/>
+<entry key="2" type="xstring" value="long"/>
 </config>
 <config key="excluded_names">
 <entry key="array-size" type="xint" value="9"/>
 <entry key="0" type="xstring" value="user"/>
-<entry key="1" type="xstring" value="First*(id)"/>
-<entry key="2" type="xstring" value="First(tags)"/>
-<entry key="3" type="xstring" value="First(title)"/>
-<entry key="4" type="xstring" value="First*(date_taken_minute)"/>
-<entry key="5" type="xstring" value="First*(date_taken_hour)"/>
-<entry key="6" type="xstring" value="First*(date_taken_day)"/>
-<entry key="7" type="xstring" value="First*(date_taken_month)"/>
-<entry key="8" type="xstring" value="First*(date_taken_year)"/>
+<entry key="1" type="xstring" value="id"/>
+<entry key="2" type="xstring" value="tags"/>
+<entry key="3" type="xstring" value="title"/>
+<entry key="4" type="xstring" value="date_taken_minute"/>
+<entry key="5" type="xstring" value="date_taken_hour"/>
+<entry key="6" type="xstring" value="date_taken_day"/>
+<entry key="7" type="xstring" value="date_taken_month"/>
+<entry key="8" type="xstring" value="date_taken_year"/>
 </config>
 <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
 <config key="name_pattern">
@@ -65,12 +65,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 3574, Cols: 3"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 2489, Cols: 3"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="d211fc4f-4020-46be-8dbb-ef36bfcfe300"/>
+<entry key="file_store_id" type="xstring" value="90db9cb4-4678-4841-a95d-ca7a649dc0bd"/>
 </config>
 </config>

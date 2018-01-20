@@ -10,12 +10,12 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="latitude_column" type="xstring" value="date_upload_year"/>
+<entry key="latitude_column" type="xstring" value="lat"/>
 <config key="longitude_column_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="longitude_column" type="xstring" value="date_upload_year"/>
+<entry key="longitude_column" type="xstring" value="long"/>
 <config key="hover_info_columns_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -23,11 +23,11 @@
 <config key="hover_info_columns">
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
-<entry key="array-size" type="xint" value="17"/>
-<entry key="0" type="xstring" value="id"/>
-<entry key="1" type="xstring" value="user"/>
-<entry key="2" type="xstring" value="lat"/>
-<entry key="3" type="xstring" value="long"/>
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xstring" value="user"/>
+<entry key="1" type="xstring" value="lat"/>
+<entry key="2" type="xstring" value="long"/>
+<entry key="3" type="xstring" value="id"/>
 <entry key="4" type="xstring" value="tags"/>
 <entry key="5" type="xstring" value="title"/>
 <entry key="6" type="xstring" value="date_taken_minute"/>
@@ -35,12 +35,7 @@
 <entry key="8" type="xstring" value="date_taken_day"/>
 <entry key="9" type="xstring" value="date_taken_month"/>
 <entry key="10" type="xstring" value="date_taken_year"/>
-<entry key="11" type="xstring" value="date_upload_minute"/>
-<entry key="12" type="xstring" value="date_upload_hour"/>
-<entry key="13" type="xstring" value="date_upload_day"/>
-<entry key="14" type="xstring" value="date_upload_month"/>
-<entry key="15" type="xstring" value="date_upload_year"/>
-<entry key="16" type="xstring" value="Cluster"/>
+<entry key="11" type="xstring" value="Cluster"/>
 </config>
 <config key="excluded_names">
 <entry key="array-size" type="xint" value="0"/>

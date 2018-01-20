@@ -18,17 +18,17 @@
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
 <entry key="array-size" type="xint" value="2"/>
-<entry key="0" type="xstring" value="First*(lat)"/>
-<entry key="1" type="xstring" value="First*(long)"/>
+<entry key="0" type="xstring" value="lat"/>
+<entry key="1" type="xstring" value="long"/>
 </config>
 <config key="excluded_names">
 <entry key="array-size" type="xint" value="6"/>
 <entry key="0" type="xstring" value="id"/>
-<entry key="1" type="xstring" value="First*(date_taken_minute)"/>
-<entry key="2" type="xstring" value="First*(date_taken_hour)"/>
-<entry key="3" type="xstring" value="First*(date_taken_day)"/>
-<entry key="4" type="xstring" value="First*(date_taken_month)"/>
-<entry key="5" type="xstring" value="First*(date_taken_year)"/>
+<entry key="1" type="xstring" value="date_taken_minute"/>
+<entry key="2" type="xstring" value="date_taken_hour"/>
+<entry key="3" type="xstring" value="date_taken_day"/>
+<entry key="4" type="xstring" value="date_taken_month"/>
+<entry key="5" type="xstring" value="date_taken_year"/>
 </config>
 <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
 <config key="name_pattern">
@@ -39,17 +39,12 @@
 <config key="datatype">
 <config key="typelist">
 <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
 </config>
 </config>
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="Following columns are not longer included in the input spec:%%00010&quot;First*(lat)&quot;, &quot;First*(long)&quot;"/>
-</config>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <entry key="factory" type="xstring" value="org.knime.distance.measure.numerical.NumericalDistanceNodeFactory"/>
 <entry key="node-name" type="xstring" value="Numeric Distances"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Distance Matrix Extension"/>
@@ -62,21 +57,16 @@
 <entry key="node-feature-version" type="xstring" value="0.0.0"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Numeric Distances"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.distance.DistanceMeasurePortSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.distance.DistanceMeasurePortObject"/>
-<entry key="port_object_summary" type="xstring" value="Distance Measure:'Standard Distance (Euclidean/ Manhattan)' of extension: 'org.knime.distance.measure.numerical.lnorm.LNormDistanceFactory'"/>
-<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="103af855-d348-4909-af7b-7879bd0512e8"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>
